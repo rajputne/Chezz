@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+
+
+
+
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReLogin</servlet-name>
+    <servlet-class>servletpackage.ReLogin</servlet-class>
+  </servlet>
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReRegister</servlet-name>
+    <servlet-class>servletpackage.ReRegister</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserinfoServlet</servlet-name>
+    <servlet-class>servletpackage.UserinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReUpdatePass</servlet-name>
+    <servlet-class>servletpackage.ReUpdatePass</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReSaleGoods</servlet-name>
+    <servlet-class>servletpackage.ReSaleGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReSerch</servlet-name>
+    <servlet-class>servletpackage.ReSerch</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReBuySale</servlet-name>
+    <servlet-class>servletpackage.ReBuySale</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReLeaveWord</servlet-name>
+    <servlet-class>servletpackage.ReLeaveWord</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReAppraise</servlet-name>
+    <servlet-class>servletpackage.ReAppraise</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReBuyGoods</servlet-name>
+    <servlet-class>servletpackage.ReBuyGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReAppselect</servlet-name>
+    <servlet-class>servletpackage.ReAppselect</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReSuccGoods</servlet-name>
+    <servlet-class>servletpackage.ReSuccGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReUserInfo</servlet-name>
+    <servlet-class>servletpackage.ReUserInfo</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+	
+	
+	
+	<servlet-mapping>
+    <servlet-name>ReLogin</servlet-name>
+    <url-pattern>/servlet/ReLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReRegister</servlet-name>
+    <url-pattern>/servlet/ReRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserinfoServlet</servlet-name>
+    <url-pattern>/servlet/UserinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReUpdatePass</servlet-name>
+    <url-pattern>/servlet/ReUpdatePass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReSaleGoods</servlet-name>
+    <url-pattern>/servlet/ReSaleGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReSerch</servlet-name>
+    <url-pattern>/servlet/ReSerch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReBuySale</servlet-name>
+    <url-pattern>/servlet/ReBuySale</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReLeaveWord</servlet-name>
+    <url-pattern>/servlet/ReLeaveWord</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReAppraise</servlet-name>
+    <url-pattern>/servlet/ReAppraise</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReBuyGoods</servlet-name>
+    <url-pattern>/servlet/ReBuyGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReAppselect</servlet-name>
+    <url-pattern>/servlet/ReAppselect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReSuccGoods</servlet-name>
+    <url-pattern>/servlet/ReSuccGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReUserInfo</servlet-name>
+    <url-pattern>/servlet/ReUserInfo</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
